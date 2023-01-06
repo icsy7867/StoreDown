@@ -32,7 +32,7 @@ export default {
      * Detect filter change for implementing the below filter to query specific items.
      */
     onchange: function (event) {
-      console.log(event)
+      // console.log(event)
       window.location.replace('/#/?filter=' + event)
     },
     /**
